@@ -27,6 +27,10 @@ def merge_lists(list_1, list_2) -> list:
     - Both lists can have missing values (for ex list_2 has missing id=2)
     """
     # return list_3
+    joined_list = [*list_1, *list_2]
+    return joined_list
 
 
 list_3 = merge_lists(list_1, list_2)
+print(list_3)
+
